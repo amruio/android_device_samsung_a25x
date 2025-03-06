@@ -31,6 +31,10 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml \
     $(DEVICE_PATH)/configs/audio/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml
 
+# Debloat
+PRODUCT_PACKAGES += \
+    RemovePackagesa25x
+
 # FM Radio
 PRODUCT_PACKAGES += \
     FMRadio \
