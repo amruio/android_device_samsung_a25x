@@ -58,7 +58,9 @@ PRODUCT_COPY_FILES += \
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(DEVICE_PATH)/overlay \
+    $(DEVICE_PATH)/overlay-evolution
 
 # Placeholders
 EMPTY_PLACEHOLDER := $(DEVICE_PATH)/configs/placeholder
