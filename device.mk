@@ -17,6 +17,19 @@
 # Inherit from the common tree
 $(call inherit-product, device/samsung/s5e8825-common/common.mk)
 
+# Variant props
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/props/system_a25x/system_a256e.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SM-A256E.prop \
+    $(LOCAL_PATH)/configs/props/system_a25x/system_a256b.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SM-A256B.prop \
+    $(LOCAL_PATH)/configs/props/vendor_a25x/vendor_a256e.prop:$(TARGET_COPY_OUT_VENDOR)/build_SM-A256E.prop \
+    $(LOCAL_PATH)/configs/props/vendor_a25x/vendor_a256b.prop:$(TARGET_COPY_OUT_VENDOR)/build_SM-A256B.prop \
+    $(LOCAL_PATH)/configs/props/odm_a25x/odm_a256e.prop:$(TARGET_COPY_OUT_ODM)/build_SM-A256E.prop \
+    $(LOCAL_PATH)/configs/props/odm_a25x/odm_a256b.prop:$(TARGET_COPY_OUT_ODM)/build_SM-A256B.prop \
+    $(LOCAL_PATH)/configs/props/product_a25x/product_a256e.prop:$(TARGET_COPY_OUT_PRODUCT)/build_SM-A256E.prop \
+    $(LOCAL_PATH)/configs/props/product_a25x/product_a256b.prop:$(TARGET_COPY_OUT_PRODUCT)/build_SM-A256B.prop \
+    $(LOCAL_PATH)/configs/props/system_ext_a25x/system_ext_a256e.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/build_SM-A256E.prop \
+    $(LOCAL_PATH)/configs/props/system_ext_a25x/system_ext_a256b.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/build_SM-A256B.prop
+
 # Inherit proprietary files
 $(call inherit-product, vendor/samsung/a25x/a25x-vendor.mk)
 
