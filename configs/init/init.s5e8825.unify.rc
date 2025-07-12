@@ -1,4 +1,4 @@
-on fs && property:ro.boot.em.model=SM-A256E
+on early-init && property:ro.boot.em.model=SM-A256E
     mount none /vendor/tee/swa /vendor/tee bind
     mount none /vendor/firmware/swa/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind
     mount none /vendor/firmware/swa/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind
@@ -8,7 +8,7 @@ on fs && property:ro.boot.em.model=SM-A256E
     mount none /vendor/firmware/swa/vts.bin /vendor/firmware/vts.bin bind
     mount none /vendor/firmware/swa/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind
 
-on fs && property:ro.boot.em.model=SM-A256B
+on early-init && property:ro.boot.em.model=SM-A256B
     mount none /vendor/tee/eur /vendor/tee bind
     mount none /vendor/firmware/eur/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind
     mount none /vendor/firmware/eur/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind
