@@ -21,6 +21,8 @@ include vendor/samsung/a25x/BoardConfigVendor.mk
 
 DEVICE_PATH := device/samsung/a25x
 
+BOARD_HAVE_SLSI_FM := true
+
 ## Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
