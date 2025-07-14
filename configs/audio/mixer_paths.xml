@@ -2288,20 +2288,16 @@
     </path>
 
     <!-- FM Radio paths -->
-    <path name="recording-fm-tuner">
-        <path name="route-fm_radio-comp-pipeline" />
-    </path>
-
-    <path name="gain-recording-fm-tuner">
-        <path name="gain-fm_radio-headset" />
-    </path>
-
     <path name="route-fm_radio-comp-pipeline">
         <path name="dev-fm_radio-input" />
         <path name="route-spdy-to-nsrc2" />
         <path name="route-nsrc2-to-wdma2" />
         <ctl name="ABOX VDSP0" value="fm-radio-wdma2-bdsrccom6" />
         <path name="acquire-abox-wakelock" />
+    </path>
+
+    <path name="recording-fm-tuner">
+        <path name="route-fm_radio-comp-pipeline" />
     </path>
 
     <path name="route-fm_radio-speaker-comp-pipeline">
@@ -5322,6 +5318,10 @@
     </path>
 
     <path name="gain-fm_radio-headphone">
+        <path name="gain-fm_radio-headset" />
+    </path>
+
+    <path name="gain-recording-fm-tuner">
         <path name="gain-fm_radio-headset" />
     </path>
 
