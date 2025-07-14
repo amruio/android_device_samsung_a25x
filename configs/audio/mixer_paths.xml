@@ -6299,19 +6299,19 @@
     </path>
 
     <path name="gain-media-headset-mic">
-        <ctl name="IN1 Boost Volume" value="39" />
-        <ctl name="STO1 ADC Capture Volume" value="28 28" />
+        <ctl name="IN1 Boost Volume" value="55" />
+        <ctl name="STO1 ADC Capture Volume" value="68 68" />
     </path>
 
     <path name="gain-media-headset-main-mic">
-        <ctl name="IN1 Boost Volume" value="37" />
-        <ctl name="IN3 Boost Volume" value="37" />
-        <ctl name="STO1 ADC Capture Volume" value="38 38" />
+        <ctl name="IN1 Boost Volume" value="55" />
+        <ctl name="IN3 Boost Volume" value="55" />
+        <ctl name="STO1 ADC Capture Volume" value="68 68" />
     </path>
 
     <path name="gain-media-headphone-mic">
-        <ctl name="IN3 Boost Volume" value="36" />
-        <ctl name="STO1 ADC Capture Volume" value="38 38" />
+        <ctl name="IN3 Boost Volume" value="55" />
+        <ctl name="STO1 ADC Capture Volume" value="68 68" />
     </path>
 
     <path name="gain-media-bt-sco-headset-in">
@@ -6369,19 +6369,19 @@
     </path>
 
     <path name="gain-recording-headset-mic">
-        <ctl name="IN1 Boost Volume" value="39" />
-        <ctl name="STO1 ADC Capture Volume" value="28 28" />
+        <ctl name="IN1 Boost Volume" value="55" />
+        <ctl name="STO1 ADC Capture Volume" value="68 68" />
     </path>
 
     <path name="gain-recording-headset-main-mic">
-        <ctl name="IN3 Boost Volume" value="39" />
-        <ctl name="IN4 Boost Volume" value="39" />
-        <ctl name="STO1 ADC Capture Volume" value="28 28" />
+        <ctl name="IN3 Boost Volume" value="55" />
+        <ctl name="IN4 Boost Volume" value="55" />
+        <ctl name="STO1 ADC Capture Volume" value="68 68" />
     </path>
 
     <path name="gain-recording-headphone-mic">
-        <ctl name="IN3 Boost Volume" value="16" />
-        <ctl name="STO1 ADC Capture Volume" value="47 47" />
+        <ctl name="IN3 Boost Volume" value="55" />
+        <ctl name="STO1 ADC Capture Volume" value="68 68" />
     </path>
 
     <path name="gain-recording-bt-sco-headset-in">
@@ -6425,13 +6425,13 @@
     </path>
 
     <path name="gain-camcorder-headset-mic">
-        <ctl name="IN1 Boost Volume" value="39" />
-        <ctl name="STO1 ADC Capture Volume" value="28 28" />
+        <ctl name="IN1 Boost Volume" value="55" />
+        <ctl name="STO1 ADC Capture Volume" value="68 68" />
     </path>
 
     <path name="gain-camcorder-headphone-mic">
-        <ctl name="IN3 Boost Volume" value="16" />
-        <ctl name="STO1 ADC Capture Volume" value="47 47" />
+        <ctl name="IN3 Boost Volume" value="55" />
+        <ctl name="STO1 ADC Capture Volume" value="68 68" />
     </path>
 
     <path name="gain-camcorder-usb-headset-mic">
@@ -6456,13 +6456,13 @@
     </path>
 
     <path name="gain-recognition-headset-mic">
-        <ctl name="IN1 Boost Volume" value="39" />
-        <ctl name="STO1 ADC Capture Volume" value="28 28" />
+        <ctl name="IN1 Boost Volume" value="55" />
+        <ctl name="STO1 ADC Capture Volume" value="68 68" />
     </path>
 
     <path name="gain-recognition-headphone-mic">
-        <ctl name="IN3 Boost Volume" value="36" />
-        <ctl name="STO1 ADC Capture Volume" value="38 38" />
+        <ctl name="IN3 Boost Volume" value="55" />
+        <ctl name="STO1 ADC Capture Volume" value="68 68" />
     </path>
 
     <path name="gain-recognition-bt-sco-headset-in">
