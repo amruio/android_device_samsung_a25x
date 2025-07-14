@@ -41,7 +41,6 @@ DEVICE_PATH := device/samsung/a25x
 # Audio
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml \
-    $(DEVICE_PATH)/configs/audio/mixer_paths_rt5691.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_rt5691.xml \
     $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
 # FM Radio
