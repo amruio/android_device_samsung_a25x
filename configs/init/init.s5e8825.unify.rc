@@ -18,6 +18,16 @@ on early-init && property:ro.boot.em.model=SM-A256B
     mount none /vendor/firmware/eur/vts.bin /vendor/firmware/vts.bin bind
     mount none /vendor/firmware/eur/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind
 
+on early-init && property:ro.boot.em.model=SM-A2560
+    mount none /vendor/tee/zhx /vendor/tee bind
+    mount none /vendor/firmware/zhx/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/zhx/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/zhx/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind
+    mount none /vendor/firmware/zhx/NPU.bin /vendor/firmware/NPU.bin bind
+    mount none /vendor/firmware/zhx/os.checked.bin /vendor/firmware/os.checked.bin bind
+    mount none /vendor/firmware/zhx/vts.bin /vendor/firmware/vts.bin bind
+    mount none /vendor/firmware/zhx/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind
+
 # Restart just to be safe.
 on post-fs-data
     restart audioserver
