@@ -22,17 +22,27 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Inherit from a25x device
 $(call inherit-product, device/samsung/a25x/device.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+## Inherit some common Pixelage stuff
+$(call inherit-product, vendor/pixelage/config/common_full_phone.mk)
+
+# Boot Animation
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_WIDTH := 1080
 
 # Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := a25x
-PRODUCT_NAME := lineage_a25x
+PRODUCT_NAME := pixelage_a25x
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A256E
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 34
 PRODUCT_CHARACTERISTICS := phone
+
+# Pixelage
+PIXELAGE_MAINTAINER := Flopster101
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="a25xdxx-user 15 AP3A.240905.015.A2 A256EXXS7CYG1 release-keys" \

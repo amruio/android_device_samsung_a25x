@@ -21,11 +21,6 @@ include device/samsung/s5e8825-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/samsung/a25x
 
-# Boot Animation
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SCREEN_HEIGHT := 2340
-TARGET_SCREEN_WIDTH := 1080
-
 # FM Radio
 BOARD_HAVE_SLSI_FM := true
 
