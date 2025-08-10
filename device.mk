@@ -17,6 +17,8 @@
 # Inherit from the common tree
 $(call inherit-product, device/samsung/s5e8825-common/common.mk)
 
+PRODUCT_CHARACTERISTICS := phone
+
 # Variant props
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/props/system_a25x/system_a2560.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SM-A2560.prop \
