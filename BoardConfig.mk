@@ -32,6 +32,3 @@ TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/configs/props/system_ext.prop
 
 ## SELinux
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
-
-## Manifest
-DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/configs/vintf/device_compatibility_matrix.xml
