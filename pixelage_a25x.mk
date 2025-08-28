@@ -46,7 +46,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="a25xdxx-user 15 AP3A.240905.015.A2 A256EXXS7CYG1 release-keys" \
-    BuildFingerprint=samsung/a25xdxx/essi:15/AP3A.240905.015.A2/A256EXXS7CYG1:user/release-keys \
+    BuildDesc="a25xdxx-user 15 AP3A.240905.015.A2 A256EXXS8CYG3 release-keys" \
+    BuildFingerprint=samsung/a25xdxx/essi:15/AP3A.240905.015.A2/A256EXXS8CYG3:user/release-keys \
     DeviceProduct=a25xdxx \
     SystemName=a25xdxx

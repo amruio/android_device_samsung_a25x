@@ -1,16 +1,16 @@
-# Firmware for model SM-A2560 - from Samsung package version A2560ZHU6CYE1
+# Firmware for model SM-A2560 - from Samsung package version A2560ZHS7CYG4
 
-fld.bin_SM-A2560|3e1fc9f4e028a753ad96d3f549f35cd7810a82c7
-harx.bin_SM-A2560|5d54556129f40ef45bfb3fc8c47a22238843ed58
-keystorage.bin_SM-A2560|7b804ff853df745a0fac002e26c5ec3d50c76f7e
-ldfw.img_SM-A2560|b84a0a680dad5e73d29ffa52d742c89ea211eb17
-modem.bin_SM-A2560|fe3aaaacd49dd3e8d0d53547a720c882de6011cf
+fld.bin_SM-A2560|316f17e3bef6165df3927a167854504a9269e812
+harx.bin_SM-A2560|c5f47566c091221864e990276a6a72caa6d8cfb3
+keystorage.bin_SM-A2560|e243102903eecb737b9a518015645912e7f9054e
+ldfw.img_SM-A2560|291eecfcf2e8a8e1cf598d1e4542038b1302f94e
+modem.bin_SM-A2560|92c798716c8a06c477ba0a368fca015a1ca67559
 modem_debug.bin_SM-A2560|3b3057a60421cb57bd7e1509c71009f57f032367
-sboot.bin_SM-A2560|d966c4ba25af17c6d29a72db44e702cce287cce6
-tzar.img_SM-A2560|40e254d16921ef72ce5cf65506f95638b4b6c08f
-tzsw.img_SM-A2560|7dd865593ce725c67977b059734db76c38fb1707
-uh.bin_SM-A2560|9fce7ed3dca5538c757fcd7778020a866a2f9f6b
-up_param.bin_SM-A2560|77bc6df0e02dea6c5785ac9e6fa1c97bc90cab18
+sboot.bin_SM-A2560|e5d5dc82bb8462d3964ea2f52525a358198f323b
+tzar.img_SM-A2560|1d67391c26dc5609a3cc901728390cf224cdb38f
+tzsw.img_SM-A2560|9fcc3f88b0b7a5678db15b0ee6faa67c8a2eb307
+uh.bin_SM-A2560|29994a086a0e3dcc3ff8a5467e316811750ca391
+up_param.bin_SM-A2560|41aaa6bcfe6be22c36148da3499345741e1ef2c7
 
 # Firmware for model SM-A256B - from Samsung package version A256BXXS8CYG4
 
@@ -26,24 +26,24 @@ tzsw.img_SM-A256B|381a2a82189fbd687d0a8c278573e38da0f766d3
 uh.bin_SM-A256B|3ae4bfbc5bbd36cff8eacc062209d305410ddc03
 up_param.bin_SM-A256B|b643cdf03804b496d56744efdec5f267ac7521d0
 
-# Firmware for model SM-A256E - from Samsung package version A256EXXS7CYG1
+# Firmware for model SM-A256E - from Samsung package version A256EXXS8CYG3
 
-fld.bin_SM-A256E|df9655a0d4f03d3db2d473e4ff9ea5e8ba913267
-harx.bin_SM-A256E|614ea243a0bec95aa1ceb47ebb2c9baf0c73fb17
-keystorage.bin_SM-A256E|a8f83d2f3e6bfb718b102efcfe585e763b7afd8e
-ldfw.img_SM-A256E|27ad7e807478eed8086a2f1ef8a678c666ad0a21
+fld.bin_SM-A256E|7676634cc720581bdb5c1accfe504f56b18f6c47
+harx.bin_SM-A256E|8f870156bff1ab464f6cbc5bfd7871e97cbebfe4
+keystorage.bin_SM-A256E|c23661005a4516f7962b277ec1b0edc58687935e
+ldfw.img_SM-A256E|c94208ff622ce6d8b6e11614630dd782e806da0f
 modem.bin_SM-A256E|04ace5dda3c10bfd96d4ce4b3c0d1e0625fd5906
 modem_debug.bin_SM-A256E|b3f09946760b09abe2ef14b14ab8c037a22a3b2c
-sboot.bin_SM-A256E|caa6967b51d7b50a2e90eed48f723c53f069bfc4
-tzsw.img_SM-A256E|5e399dbc71beb8f3c90964d2b0dc68ba88214bcc
-tzar.img_SM-A256E|42f2656d46b16cfdc3d6e30079b44d3f44e44e90
-uh.bin_SM-A256E|0182a122d0deb6aefb53539b48e35a9575b56425
-up_param.bin_SM-A256E|5b32fa1d92c5f8b95e16ca20d36a2a565533b1df
+sboot.bin_SM-A256E|17cf088b3af1bf034d104a055c614100a10f2f73
+tzar.img_SM-A256E|49d8b524971fefac021f901427f360607bafed3c
+tzsw.img_SM-A256E|f9093cef1f54650a7865046e2d5edd75c7ea688f
+uh.bin_SM-A256E|571ba2b4d946db5fd8a956ac630779625527fd94
+up_param.bin_SM-A256E|96d7f9a978b584082e6d5e12f777104de8070aab
 
 # File containing the supported models, one per line
 models|d740e499e29d5992d412c22ffd9afe89ea2dc02c
 
 # Files containing Samsung package version for supported models
-version_SM-A2560|268e09538fe55be6228308cfeca09aa408c53694
-version_SM-A256B|1d180f6b59dc534e08df9ffd7f02ed3269f5a3cc
-version_SM-A256E|10c4329c8ffbb136128ab6c005ca86cd2a8dda59
+version_SM-A2560|f5c16f0e9998ddc5e13636b1f2702862dc0974f9
+version_SM-A256B|7b2841d9d84b520d64a0ec402d333cd51d77a598
+version_SM-A256E|ad10f2480e11f2bf7aec4bd1092133f8b9665955
