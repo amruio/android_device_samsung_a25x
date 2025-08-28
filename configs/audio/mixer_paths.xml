@@ -2296,10 +2296,6 @@
         <path name="acquire-abox-wakelock" />
     </path>
 
-    <path name="recording-fm-tuner">
-        <path name="route-fm_radio-comp-pipeline" />
-    </path>
-
     <path name="route-fm_radio-speaker-comp-pipeline">
         <path name="dev-fm_radio-input" />
         <path name="route-spdy-to-nsrc2" />
@@ -2312,6 +2308,7 @@
         <path name="dev-dual-speaker" />
         <path name="route-normal-spkrcv-playback" />
         <path name="route-fm_radio-speaker-comp-pipeline" />
+        <ctl name="ABOX VPCMIN_DAI4_A" value="WDMA2" />
     </path>
 
     <path name="fm_radio-speaker-bottom">
@@ -3723,6 +3720,11 @@
         <path name="set-wdma1-16bit-2ch-pdsz2-config" />
         <path name="route-uaif2-to-wdma1-bridge" />
         <ctl name="ABOX VDSP4" value="wdma2-lb-capture" />
+    </path>
+
+    <path name="recording-external">
+        <path name="route-fm_radio-comp-pipeline" />
+        <ctl name="ABOX VPCMIN_DAI4_A" value="WDMA2" />
     </path>
 
     <!-- Voice Recording paths -->

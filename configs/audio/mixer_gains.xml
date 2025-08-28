@@ -102,10 +102,6 @@
         <path name="gain-fm_radio-headset" />
     </path>
 
-    <path name="gain-recording-fm-tuner">
-        <path name="gain-fm_radio-headset" />
-    </path>
-
     <path name="gain-fm_radio-usb-headset">
     </path>
 
@@ -1146,6 +1142,9 @@
     <path name="gain-karaoke-2nd-mic">
         <ctl name="IN4 Boost Volume" value="16" />
         <ctl name="STO1 ADC Capture Volume" value="47 47" />
+    </path>
+
+    <path name="gain-recording-external">
     </path>
 
     <!-- Voice Recording paths -->

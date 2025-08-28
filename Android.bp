@@ -5,4 +5,7 @@
 //
 
 soong_namespace {
+    imports: [
+        "device/samsung/s5e8825-common",
+    ],
 }
