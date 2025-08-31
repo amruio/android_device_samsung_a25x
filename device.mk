@@ -64,20 +64,20 @@ PRODUCT_COPY_FILES += \
     $(EMPTY_PLACEHOLDER):$(TARGET_COPY_OUT_VENDOR)/firmware/NPU.bin \
     $(EMPTY_PLACEHOLDER):$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin
 
-# Variant props
+# SKU
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/props/sku/odm_a25x/odm_SM-A2560.prop:$(TARGET_COPY_OUT_ODM)/build_SM-A2560.prop \
-    $(DEVICE_PATH)/configs/props/sku/odm_a25x/odm_SM-A256B.prop:$(TARGET_COPY_OUT_ODM)/build_SM-A256B.prop \
-    $(DEVICE_PATH)/configs/props/sku/odm_a25x/odm_SM-A256E.prop:$(TARGET_COPY_OUT_ODM)/build_SM-A256E.prop \
-    $(DEVICE_PATH)/configs/props/sku/product_a25x/product_SM-A2560.prop:$(TARGET_COPY_OUT_PRODUCT)/build_SM-A2560.prop \
-    $(DEVICE_PATH)/configs/props/sku/product_a25x/product_SM-A256B.prop:$(TARGET_COPY_OUT_PRODUCT)/build_SM-A256B.prop \
-    $(DEVICE_PATH)/configs/props/sku/product_a25x/product_SM-A256E.prop:$(TARGET_COPY_OUT_PRODUCT)/build_SM-A256E.prop \
-    $(DEVICE_PATH)/configs/props/sku/system_a25x/system_SM-A2560.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SM-A2560.prop \
-    $(DEVICE_PATH)/configs/props/sku/system_a25x/system_SM-A256B.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SM-A256B.prop \
-    $(DEVICE_PATH)/configs/props/sku/system_a25x/system_SM-A256E.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SM-A256E.prop \
-    $(DEVICE_PATH)/configs/props/sku/system_ext_a25x/system_ext_SM-A2560.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/build_SM-A2560.prop \
-    $(DEVICE_PATH)/configs/props/sku/system_ext_a25x/system_ext_SM-A256B.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/build_SM-A256B.prop \
-    $(DEVICE_PATH)/configs/props/sku/system_ext_a25x/system_ext_SM-A256E.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/build_SM-A256E.prop \
-    $(DEVICE_PATH)/configs/props/sku/vendor_a25x/vendor_SM-A2560.prop:$(TARGET_COPY_OUT_VENDOR)/build_SM-A2560.prop \
-    $(DEVICE_PATH)/configs/props/sku/vendor_a25x/vendor_SM-A256B.prop:$(TARGET_COPY_OUT_VENDOR)/build_SM-A256B.prop \
-    $(DEVICE_PATH)/configs/props/sku/vendor_a25x/vendor_SM-A256E.prop:$(TARGET_COPY_OUT_VENDOR)/build_SM-A256E.prop
+    $(DEVICE_PATH)/configs/sku/odm_a25x/odm_SM-A2560.prop:$(TARGET_COPY_OUT_ODM)/build_SM-A2560.prop \
+    $(DEVICE_PATH)/configs/sku/odm_a25x/odm_SM-A256B.prop:$(TARGET_COPY_OUT_ODM)/build_SM-A256B.prop \
+    $(DEVICE_PATH)/configs/sku/odm_a25x/odm_SM-A256E.prop:$(TARGET_COPY_OUT_ODM)/build_SM-A256E.prop \
+    $(DEVICE_PATH)/configs/sku/product_a25x/product_SM-A2560.prop:$(TARGET_COPY_OUT_PRODUCT)/build_SM-A2560.prop \
+    $(DEVICE_PATH)/configs/sku/product_a25x/product_SM-A256B.prop:$(TARGET_COPY_OUT_PRODUCT)/build_SM-A256B.prop \
+    $(DEVICE_PATH)/configs/sku/product_a25x/product_SM-A256E.prop:$(TARGET_COPY_OUT_PRODUCT)/build_SM-A256E.prop \
+    $(DEVICE_PATH)/configs/sku/system_a25x/system_SM-A2560.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SM-A2560.prop \
+    $(DEVICE_PATH)/configs/sku/system_a25x/system_SM-A256B.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SM-A256B.prop \
+    $(DEVICE_PATH)/configs/sku/system_a25x/system_SM-A256E.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SM-A256E.prop \
+    $(DEVICE_PATH)/configs/sku/system_ext_a25x/system_ext_SM-A2560.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/build_SM-A2560.prop \
+    $(DEVICE_PATH)/configs/sku/system_ext_a25x/system_ext_SM-A256B.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/build_SM-A256B.prop \
+    $(DEVICE_PATH)/configs/sku/system_ext_a25x/system_ext_SM-A256E.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/build_SM-A256E.prop \
+    $(DEVICE_PATH)/configs/sku/vendor_a25x/vendor_SM-A2560.prop:$(TARGET_COPY_OUT_VENDOR)/build_SM-A2560.prop \
+    $(DEVICE_PATH)/configs/sku/vendor_a25x/vendor_SM-A256B.prop:$(TARGET_COPY_OUT_VENDOR)/build_SM-A256B.prop \
+    $(DEVICE_PATH)/configs/sku/vendor_a25x/vendor_SM-A256E.prop:$(TARGET_COPY_OUT_VENDOR)/build_SM-A256E.prop
