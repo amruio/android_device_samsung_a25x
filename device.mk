@@ -38,7 +38,7 @@ $(call soong_config_set,libfmjni,vendor,slsi)
 # Init
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/init/init.a25x.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.a25x.rc \
-    $(DEVICE_PATH)/configs/init/init.s5e8825.unify.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.s5e8825.unify.rc
+    $(DEVICE_PATH)/configs/init/init.a25x.unify.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.a25x.unify.rc
 
 # Nfc
 PRODUCT_PACKAGES += \
