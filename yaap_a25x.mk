@@ -22,12 +22,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Inherit from a25x device
 $(call inherit-product, device/samsung/a25x/device.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common YAAP stuff
+$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
+
+# YAAP Flags
+TARGET_SUPPORTS_64_BIT_APPS := true
+TARGET_ENABLE_BLUR := true
+TARGET_BUILD_GAPPS ?= true
 
 # Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := a25x
-PRODUCT_NAME := lineage_a25x
+PRODUCT_NAME := yaap_a25x
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A256E
 PRODUCT_MANUFACTURER := samsung
