@@ -3,23 +3,14 @@
 # Audio Firmware
 vendor/firmware/abov/a96t396_a25x_main.bin
 vendor/firmware/APBargeIn_AUDIO_SLSI.bin
-vendor/firmware/APBiBF_AUDIO_SLSI.bin
-vendor/firmware/APSV_AUDIO_SLSI.bin
-vendor/firmware/OD_V2.1.6_01_26_QVGA.nnc
-vendor/firmware/OD_V2.3.7_02_05_VGA.nnc
 vendor/firmware/SetMultiCalInfo.bin
 vendor/firmware/SoundBoosterParam.bin
 vendor/firmware/a2dpcom.bin
 vendor/firmware/abox_tplg.bin
 vendor/firmware/abox_tplg.conf
-vendor/firmware/avsyncmix.bin
-vendor/firmware/bidirmic.bin
 vendor/firmware/calliope_dram.bin
-vendor/firmware/dolby.bin
-vendor/firmware/listenbackeffect.bin
 vendor/firmware/sb_music.bin
 vendor/firmware/sb_others.bin
-vendor/firmware/volumemonitor.bin
 
 # Audio Firmware
 vendor/firmware/APDV_AUDIO_SLSI.bin:vendor/firmware/SM-A256E/APDV_AUDIO_SLSI.bin
@@ -55,7 +46,7 @@ vendor/lib64/libsec2lsi_conversion.so
 vendor/lib64/libswlme.so
 
 # Patched camera HAL
-vendor/lib64/libexynoscamera3.so|6f76745e413982b2f0fdcfc732a30e0ffb3543dc|256213118b13867ab13198c6b6699659174978d5
+vendor/lib64/libexynoscamera3.so|8c4be451367521acdd68cd81301f0cc0ddf8c2d1|5e5cd88ec3500bab8b99517ac43c232b00c2fe81
 
 # Fingerprint
 vendor/lib64/libbauthserver.so
@@ -64,8 +55,6 @@ vendor/lib64/libbauthtzcommon.so
 # Firmware
 vendor/firmware/nfc/st21nfc_fw.bin
 vendor/firmware/secnvm/k250a_fw_image.manifest
-vendor/firmware/dax_param.bin
-vendor/firmware/default_configuration.flm.cfg.bin
 vendor/firmware/ft3519_a25x.bin
 vendor/firmware/gt9895_a25x.bin
 vendor/firmware/is_lib.bin
@@ -78,7 +67,6 @@ vendor/firmware/lmecpu_JN1.json
 vendor/firmware/rxse.bin
 vendor/firmware/sectiongraph_tplg.bin
 vendor/firmware/sectiongraph_tplg.conf
-vendor/firmware/secure_configuration.flm.cfg.bin
 vendor/firmware/setfile_4ha.bin
 vendor/firmware/setfile_gc02m1.bin
 vendor/firmware/setfile_hi1339.bin
