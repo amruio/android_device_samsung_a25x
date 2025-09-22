@@ -1,0 +1,177 @@
+# a25zhx (chn_open)
+on early-init && property:ro.boot.em.model=SM-A2560
+    # Firmware blobs
+    mount none /vendor/firmware/SM-A2560/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SM-A2560/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SM-A2560/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind
+    mount none /vendor/firmware/SM-A2560/NPU.bin /vendor/firmware/NPU.bin bind
+    mount none /vendor/firmware/SM-A2560/os.checked.bin /vendor/firmware/os.checked.bin bind
+    mount none /vendor/firmware/SM-A2560/vts.bin /vendor/firmware/vts.bin bind
+    mount none /vendor/firmware/SM-A2560/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind
+    # TEEgris
+    mount none /vendor/tee/SM-A2560 /vendor/tee bind
+
+# a25xxx (eur_open)
+on early-init && property:ro.boot.em.model=SM-A256B
+    # Firmware blobs
+    mount none /vendor/firmware/SM-A256B/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SM-A256B/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SM-A256B/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind
+    mount none /vendor/firmware/SM-A256B/NPU.bin /vendor/firmware/NPU.bin bind
+    mount none /vendor/firmware/SM-A256B/os.checked.bin /vendor/firmware/os.checked.bin bind
+    mount none /vendor/firmware/SM-A256B/vts.bin /vendor/firmware/vts.bin bind
+    mount none /vendor/firmware/SM-A256B/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind
+    # TEEgris
+    mount none /vendor/tee/SM-A256B /vendor/tee bind
+
+# a25xdxx (swa_open)
+on early-init && property:ro.boot.em.model=SM-A256E
+    # Firmware blobs
+    mount none /vendor/firmware/SM-A256E/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SM-A256E/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SM-A256E/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind
+    mount none /vendor/firmware/SM-A256E/NPU.bin /vendor/firmware/NPU.bin bind
+    mount none /vendor/firmware/SM-A256E/os.checked.bin /vendor/firmware/os.checked.bin bind
+    mount none /vendor/firmware/SM-A256E/vts.bin /vendor/firmware/vts.bin bind
+    mount none /vendor/firmware/SM-A256E/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind
+    # TEEgris
+    mount none /vendor/tee/SM-A256E /vendor/tee bind
+
+ on early-init && property:ro.product.system.device=a25x
+    # bluetooth device name 
+    setprop bluetooth.device.default_name "Galaxy A25 5G"
+    mount none /vendor/firmware/a25x/a2dpcom.bin /vendor/firmware/a2dpcom.bin bind
+    mount none /vendor/firmware/a25x/abox_tplg.bin /vendor/firmware/abox_tplg.bin bind
+    mount none /vendor/firmware/a25x/abox_tplg.conf /vendor/firmware/abox_tplg.conf bind
+    mount none /vendor/firmware/a25x/APBargeIn_AUDIO_SLSI.bin /vendor/firmware/APBargeIn_AUDIO_SLSI.bin bind   
+    mount none /vendor/firmware/a25x/calliope_dram.bin /vendor/firmware/calliope_dram.bin bind
+    mount none /vendor/firmware/a25x/ft3519_a25x.bin /vendor/firmware/ft3519_a25x.bin bind
+    mount none /vendor/firmware/a25x/gt9895_a25x.bin /vendor/firmware/gt9895_a25x.bin bind
+    mount none /vendor/firmware/a25x/is_lib.bin /vendor/firmware/is_lib.bin bind
+    mount none /vendor/firmware/a25x/is_rta.bin /vendor/firmware/is_rta.bin bind
+    mount none /vendor/firmware/a25x/lmecpu_4HA.json /vendor/firmware/lmecpu_4HA.json bind
+    mount none /vendor/firmware/a25x/lmecpu_GC02M1.json /vendor/firmware/lmecpu_GC02M1.json bind
+    mount none /vendor/firmware/a25x/lmecpu_HI1339.json /vendor/firmware/lmecpu_HI1339.json bind
+    mount none /vendor/firmware/a25x/lmecpu_IMX258.json /vendor/firmware/lmecpu_IMX258.json bind
+    mount none /vendor/firmware/a25x/lmecpu_JN1.json /vendor/firmware/lmecpu_JN1.json bind
+    mount none /vendor/firmware/a25x/rxse.bin /vendor/firmware/rxse.bin bind
+    mount none /vendor/firmware/a25x/sb_music.bin /vendor/firmware/sb_music.bin bind
+    mount none /vendor/firmware/a25x/sb_others.bin /vendor/firmware/sb_others.bin bind
+    mount none /vendor/firmware/a25x/sectiongraph_tplg.bin /vendor/firmware/sectiongraph_tplg.bin bind
+    mount none /vendor/firmware/a25x/sectiongraph_tplg.conf /vendor/firmware/sectiongraph_tplg.conf bind
+    mount none /vendor/firmware/a25x/setfile_4ha.bin /vendor/firmware/setfile_4ha.bin bind
+    mount none /vendor/firmware/a25x/setfile_gc02m1.bin /vendor/firmware/setfile_gc02m1.bin bind
+    mount none /vendor/firmware/a25x/setfile_hi1339.bin /vendor/firmware/setfile_hi1339.bin bind
+    mount none /vendor/firmware/a25x/setfile_imx258.bin /vendor/firmware/setfile_imx258.bin bind
+    mount none /vendor/firmware/a25x/setfile_jn1.bin /vendor/firmware/setfile_jn1.bin bind
+    mount none /vendor/firmware/a25x/SetMultiCalInfo.bin /vendor/firmware/SetMultiCalInfo.bin bind
+    mount none /vendor/firmware/a25x/SoundBoosterParam.bin /vendor/firmware/SoundBoosterParam.bin bind
+    mount none /vendor/firmware/a25x/swcnr_SAK2L4.json /vendor/firmware/swcnr_SAK2L4.json bind
+    mount none /vendor/firmware/a25x/tfa9878.bin /vendor/firmware/tfa9878.bin bind
+    mount none /vendor/firmware/a25x/tfa98xx.cnt /vendor/firmware/tfa98xx.cnt bind
+    mount none /vendor/firmware/a25x/txse1.bin /vendor/firmware/txse1.bin bind
+    mount none /vendor/firmware/a25x/txse2.bin /vendor/firmware/txse2.bin bind
+    mount none /vendor/etc/mixer_gains_a25x.xml /vendor/etc/mixer_gains.xml
+    mount none /vendor/etc/mixer_paths_a25x.xml /vendor/etc/mixer_paths.xml
+    mount none /vendor/etc/audio_board_info_a25x.xml /vendor/etc/audio_board_info.xml
+    # camera libs (a25x)
+    mount none /vendor/lib64/camera.s5e8825_a25x.so /vendor/lib64/camera.s5e8825.so bind
+    mount none /vendor/lib64/libMERTA_a25x.so /vendor/lib64/libMERTA.so bind
+    mount none /vendor/lib64/libbauthserver_a25x.so /vendor/lib64/libbauthserver.so bind
+    mount none /vendor/lib64/libbauthtzcommon.so /vendor/lib64/libbauthtzcommon.so bind
+    mount none /vendor/lib64/libexynoscamera3_a25x.so /vendor/lib64/libexynoscamera3.so bind
+    mount none /vendor/lib64/libexynoscamera_merta_plugin_a25x.so /vendor/lib64/libexynoscamera_merta_plugin.so bind
+    mount none /vendor/lib64/libexynoscamera_swlme_plugin_a25x.so/vendor/lib64/libexynoscamera_swlme_plugin.so bind
+    mount none /vendor/lib64/libexynoscamera_vpl_plugin_a25x.so /vendor/lib64/libexynoscamera_vpl_plugin.so bind
+    mount none /vendor/lib64/libsec2lsi_conversion_a25x.so /vendor/lib64/libsec2lsi_conversion.so bind
+    # wifi
+    mount none /vendor/etc/unified/a25x/wifi /vendor/etc/wifi bind
+
+on early-init && property:ro.product.system.device=m34x
+    # bluetooth device name 
+    setprop bluetooth.device.default_name "Galaxy M34 5G"
+    mount none /vendor/firmware/m34x/a2dpcom.bin /vendor/firmware/a2dpcom.bin bind
+    mount none /vendor/firmware/m34x/abox_tplg.bin /vendor/firmware/abox_tplg.bin bind
+    mount none /vendor/firmware/m34x/abox_tplg.conf /vendor/firmware/abox_tplg.conf bind
+    mount none /vendor/firmware/m34x/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/m34x/APBargeIn_AUDIO_SLSI.bin /vendor/firmware/APBargeIn_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/m34x/APBiBF_AUDIO_SLSI.bin /vendor/firmware/APBiBF_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/m34x/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/m34x/calliope_dram.bin /vendor/firmware/calliope_dram.bin bind
+    mount none /vendor/firmware/m34x/dual_cal_wide_swide.bin /vendor/firmware/dual_cal_wide_swide.bin bind
+    mount none /vendor/firmware/m34x/gt9895_m34x.bin /vendor/firmware/gt9895_m34x.bin bind
+    mount none /vendor/firmware/m34x/is_lib.bin /vendor/firmware/is_lib.bin bind
+    mount none /vendor/firmware/m34x/is_rta.bin /vendor/firmware/is_rta.bin bind
+    mount none /vendor/firmware/m34x/lmecpu_4HA.json /vendor/firmware/lmecpu_4HA.json bind
+    mount none /vendor/firmware/m34x/lmecpu_GC02M2.json /vendor/firmware/lmecpu_GC02M2.json bind
+    mount none /vendor/firmware/m34x/lmecpu_HI1339.json /vendor/firmware/lmecpu_HI1339.json bind
+    mount none /vendor/firmware/m34x/lmecpu_JN1.json /vendor/firmware/lmecpu_JN1.json bind
+    mount none /vendor/firmware/m34x/rxse.bin /vendor/firmware/rxse.bin bind
+    mount none /vendor/firmware/m34x/sb_music.bin /vendor/firmware/sb_music.bin bind
+    mount none /vendor/firmware/m34x/sb_others.bin /vendor/firmware/sb_others.bin bind
+    mount none /vendor/firmware/m34x/sectiongraph_tplg.bin /vendor/firmware/sectiongraph_tplg.bin bind
+    mount none /vendor/firmware/m34x/sectiongraph_tplg.conf /vendor/firmware/sectiongraph_tplg.conf bind
+    mount none /vendor/firmware/m34x/setfile_4ha.bin /vendor/firmware/setfile_4ha.bin bind
+    mount none /vendor/firmware/m34x/setfile_gc02m1.bin /vendor/firmware/setfile_gc02m1.bin bind
+    mount none /vendor/firmware/m34x/setfile_gc02m1b.bin /vendor/firmware/setfile_gc02m1b.bin bind
+    mount none /vendor/firmware/m34x/setfile_gc02m2.bin /vendor/firmware/setfile_gc02m2.bin bind
+    mount none /vendor/firmware/m34x/setfile_gc5035.bin /vendor/firmware/setfile_gc5035.bin bind
+    mount none /vendor/firmware/m34x/setfile_hi1339.bin /vendor/firmware/setfile_hi1339.bin bind
+    mount none /vendor/firmware/m34x/setfile_imx355.bin /vendor/firmware/setfile_imx355.bin bind
+    mount none /vendor/firmware/m34x/setfile_jn1.bin /vendor/firmware/setfile_jn1.bin bind
+    mount none /vendor/firmware/m34x/SetMultiCalInfo.bin /vendor/firmware/SetMultiCalInfo.bin bind
+    mount none /vendor/firmware/m34x/SoundBoosterParam.bin /vendor/firmware/SoundBoosterParam.bin bind
+    mount none /vendor/firmware/m34x/swcnr_SAK2L4.json /vendor/firmware/swcnr_SAK2L4.json bind
+    mount none /vendor/firmware/m34x/tfa9878.bin /vendor/firmware/tfa9878.bin bind
+    mount none /vendor/firmware/m34x/tfa98xx.cnt /vendor/firmware/tfa98xx.cnt bind
+    mount none /vendor/firmware/m34x/txse1.bin /vendor/firmware/txse1.bin bind
+    mount none /vendor/firmware/m34x/txse2.bin /vendor/firmware/txse2.bin bind
+
+
+    on early-init && property:ro.boot.em.model=SM-E346B
+    # Firmware blobs
+    mount none /vendor/firmware/SM-E346B/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind
+    mount none /vendor/firmware/SM-E346B/NPU.bin /vendor/firmware/NPU.bin bind
+    mount none /vendor/firmware/SM-E346B/os.checked.bin /vendor/firmware/os.checked.bin bind
+    mount none /vendor/firmware/SM-E346B/vts.bin /vendor/firmware/vts.bin bind
+    mount none /vendor/firmware/SM-E346B/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind
+    # TEEgris
+    mount none /vendor/tee/SM-E346B /vendor/tee bind
+
+on early-init && property:ro.boot.em.model=SM-M346B
+    # Firmware blobs
+    mount none /vendor/firmware/SM-M346B/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind
+    mount none /vendor/firmware/SM-M346B/NPU.bin /vendor/firmware/NPU.bin bind
+    mount none /vendor/firmware/SM-M346B/os.checked.bin /vendor/firmware/os.checked.bin bind
+    mount none /vendor/firmware/SM-M346B/vts.bin /vendor/firmware/vts.bin bind
+    mount none /vendor/firmware/SM-M346B/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind
+    # TEEgris
+    mount none /vendor/tee/SM-M346B /vendor/tee bind
+
+on early-init && property:ro.boot.em.model=SM-M346B1
+    # Firmware blobs
+    mount none /vendor/firmware/SM-M346B1/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind
+    mount none /vendor/firmware/SM-M346B1/NPU.bin /vendor/firmware/NPU.bin bind
+    mount none /vendor/firmware/SM-M346B1/os.checked.bin /vendor/firmware/os.checked.bin bind
+    mount none /vendor/firmware/SM-M346B1/vts.bin /vendor/firmware/vts.bin bind
+    mount none /vendor/firmware/SM-M346B1/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind
+    # TEEgris
+    mount none /vendor/tee/SM-M346B1 /vendor/tee bind
+
+on early-init && property:ro.boot.em.model=SM-M346B2
+    # Firmware blobs
+    mount none /vendor/firmware/SM-M346B2/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind
+    mount none /vendor/firmware/SM-M346B2/NPU.bin /vendor/firmware/NPU.bin bind
+    mount none /vendor/firmware/SM-M346B2/os.checked.bin /vendor/firmware/os.checked.bin bind
+    mount none /vendor/firmware/SM-M346B2/vts.bin /vendor/firmware/vts.bin bind
+    mount none /vendor/firmware/SM-M346B2/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind
+    # TEEgris
+    mount none /vendor/tee/SM-M346B2 /vendor/tee bind
+
+on post-fs-data && property:ro.product.system.device=m34x
+stop hermesd
+stop vendor.hermes-default
+
+# Restart just to be safe.
+on boot
+    restart audioserver

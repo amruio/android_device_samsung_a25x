@@ -34,9 +34,18 @@ vendor/firmware/SM-A256B/vts.bin|0197a7979327be0387d78fcc4e8fbcebff8aaabf
 vendor/etc/wifi/mx140_bt.hcf
 
 # Camera
-vendor/lib64/hw/camera.s5e8825.so
+vendor/etc/unified/a25x/lib64/hw/camera.s5e8825.so:vendor/etc/unified/a25x/lib64/hw/camera.s5e8825_a25x.so;FIX_SONAME
 
 # Camera dependencies
+vendor/etc/unified/a25x/lib64/libMERTA_a25x.so:vendor/etc/unified/a25x/lib64/libMERTA_a25x.so;FIX_SONAME
+vendor/etc/unified/a25x/lib64/libexynoscamera_merta_plugin_a25x.so:vendor/etc/unified/a25x/lib64/libexynoscamera_merta_plugin_a25x.so;FIX_SONAME
+vendor/etc/unified/a25x/lib64/libexynoscamera_swlme_plugin_a25x.so:vendor/etc/unified/a25x/lib64/libexynoscamera_swlme_plugin_a25x.so;FIX_SONAME
+vendor/etc/unified/a25x/lib64/libexynoscamera_vpl_plugin_a25x.so:vendor/etc/unified/a25x/lib64/libexynoscamera_vpl_plugin_a25x.so;FIX_SONAME
+vendor/etc/unified/a25x/lib64/liblmecpu_a25x.so:vendor/etc/unified/a25x/lib64/liblmecpu_a25x.so;FIX_SONAME
+vendor/etc/unified/a25x/lib64/libsec2lsi_conversion_a25x.so:vendor/etc/unified/a25x/lib64/libsec2lsi_conversion_a25x.so;FIX_SONAME
+vendor/etc/unified/a25x/lib64/libswlme_a25x.so:vendor/etc/unified/a25x/lib64/libswlme_a25x.so;FIX_SONAME
+
+# Camera dependencies - from SM-M346B
 vendor/lib64/libMERTA.so
 vendor/lib64/libexynoscamera_merta_plugin.so
 vendor/lib64/libexynoscamera_swlme_plugin.so
