@@ -15,7 +15,7 @@
 #
 
 # Inherit proprietary files
-$(call inherit-product, vendor/samsung/a25x/a25x-vendor.mk)
+$(call inherit-product, vendor/samsung/amvi/amvi-vendor.mk)
 
 # Inherit common makefile
 $(call inherit-product, device/samsung/s5e8825-common/common.mk)
@@ -23,7 +23,7 @@ $(call inherit-product, device/samsung/s5e8825-common/common.mk)
 # Inherit Dalvik VM configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
-DEVICE_PATH := device/samsung/a25x
+DEVICE_PATH := device/samsung/amvi
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -43,7 +43,7 @@ $(call soong_config_set,libfmjni,vendor,slsi)
 
 # Init
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/init/init.a25x.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.a25x.rc \
+    $(DEVICE_PATH)/configs/init/init.amvi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.amvi.rc \
     $(DEVICE_PATH)/configs/init/init.s5e8825.unify.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.s5e8825.unify.rc
 
 # Nfc
