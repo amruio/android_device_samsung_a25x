@@ -276,11 +276,3 @@ vendor/etc/wifi/mx140_wlan_sw.hcf
 vendor/etc/wifi/mx140_wlan_t.hcf
 vendor/etc/wifi/mx140_wlan_t_sw.hcf
 vendor/etc/wifi/slsi_reg_database.bin
-
-# Vaultkeeper
-vendor/bin/vaultkeeperd
-vendor/bin/vendor.samsung.hardware.security.vaultkeeper-service
-vendor/etc/vintf/manifest/vendor.samsung.hardware.security.vaultkeeper-manifest.xml
-vendor/lib64/libstork_shared.so
-vendor/lib64/libvkservice.so
-vendor/lib64/vendor.samsung.hardware.security.vaultkeeper-V1-ndk_platform.so

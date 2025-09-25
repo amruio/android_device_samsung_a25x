@@ -40,6 +40,9 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/libexynoscamera3.so': blob_fixup()
         .add_needed('libshim_camera.so')
         .binary_regex_replace(b'_ZN7android5Fence', b'_ZN7exynos55Fence'),
+    # Hermes
+    'vendor/bin/hermesd': blob_fixup()
+        .binary_regex_replace(rb'ro\.factory\.factory_binary', b'ro.vendor.factory_binary\x00'),
     # Keymint
     (
         'vendor/bin/hw/android.hardware.security.keymint-service.samsung',
@@ -60,13 +63,6 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libcrypto.so', 'libcrypto-tm.so')
         .replace_needed('libssl.so', 'libssl-tm.so')
         .add_needed('libshim_crypto.so'),
-    # Hermes/Vaultkeeper
-    (
-        'vendor/bin/hermesd'
-        'vendor/bin/vaultkeeperd',
-        'vendor/lib64/libvkservice.so',
-    ): blob_fixup()
-        .binary_regex_replace(rb'ro\.factory\.factory_binary', b'ro.vendor.factory_binary\x00'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
