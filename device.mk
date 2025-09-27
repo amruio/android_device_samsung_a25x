@@ -44,7 +44,7 @@ $(call soong_config_set,libfmjni,vendor,slsi)
 # Init
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/init/init.amvi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.amvi.rc \
-    $(DEVICE_PATH)/configs/init/init.s5e8825.unify.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.s5e8825.unify.rc
+    $(DEVICE_PATH)/configs/init/init.amvi.unify.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.amvi.unify.rc
 
 # Nfc
 PRODUCT_PACKAGES += android.hardware.nfc@1.2-service.st
