@@ -29,6 +29,8 @@ TARGET_SCREEN_WIDTH := 1080
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := a25x,f34x,m34x
 
+BOARD_DTBO_CFG := $(DEVICE_PATH)/configs/kernel/a25x.cfg
+
 # FM Radio
 BOARD_HAVE_SLSI_FM := true
 
