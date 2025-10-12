@@ -17,12 +17,12 @@
 # Inherit from a25x device
 $(call inherit-product, device/samsung/a25x/device.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common VoltageOS stuff
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
 # Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := a25x
-PRODUCT_NAME := lineage_a25x
+PRODUCT_NAME := voltage_a25x
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A256E
 PRODUCT_MANUFACTURER := samsung
